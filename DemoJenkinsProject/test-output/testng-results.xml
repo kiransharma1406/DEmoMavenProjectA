@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="43748" started-at="2018-08-15T06:04:10Z" finished-at="2018-08-15T06:04:54Z">
+    <groups>
+    </groups>
+    <test name="JenkinsDemoTest" duration-ms="43748" started-at="2018-08-15T06:04:10Z" finished-at="2018-08-15T06:04:54Z">
+      <class name="com.jenkinsdemo.test.RegressionTestScripts">
+        <test-method status="PASS" signature="browserAppLaunch()[pri:0, instance:com.jenkinsdemo.test.RegressionTestScripts@396f6598]" name="browserAppLaunch" is-config="true" duration-ms="22528" started-at="2018-08-15T06:04:10Z" finished-at="2018-08-15T06:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAppLaunch -->
+        <test-method status="PASS" signature="verifyinvalidLogin()[pri:0, instance:com.jenkinsdemo.test.RegressionTestScripts@396f6598]" name="verifyinvalidLogin" duration-ms="7564" started-at="2018-08-15T06:04:33Z" finished-at="2018-08-15T06:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyinvalidLogin -->
+        <test-method status="PASS" signature="nevigateBack()[pri:1, instance:com.jenkinsdemo.test.RegressionTestScripts@396f6598]" name="nevigateBack" duration-ms="1714" started-at="2018-08-15T06:04:41Z" finished-at="2018-08-15T06:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nevigateBack -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:2, instance:com.jenkinsdemo.test.RegressionTestScripts@396f6598]" name="verifyValidLogin" duration-ms="10983" started-at="2018-08-15T06:04:43Z" finished-at="2018-08-15T06:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="appClose()[pri:0, instance:com.jenkinsdemo.test.RegressionTestScripts@396f6598]" name="appClose" is-config="true" duration-ms="448" started-at="2018-08-15T06:04:54Z" finished-at="2018-08-15T06:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+      </class> <!-- com.jenkinsdemo.test.RegressionTestScripts -->
+    </test> <!-- JenkinsDemoTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
